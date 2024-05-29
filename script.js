@@ -8,11 +8,11 @@ password.addEventListener("input", (e)=>{
 
        if( e.target.value.match(/[a-z]/) != null ){
         document.getElementById("lower").classList.add("check")
-        document.getElementById("lower-img").src = "greentick.png"
+        document.getElementById("lower-img").src = "./greentick.png"
        }
        else{
         document.getElementById("lower").classList.remove("check")
-        document.getElementById("lower-img").src = "x.png"
+        document.getElementById("lower-img").src = "./x.png"
        }
         
        

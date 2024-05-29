@@ -7,24 +7,19 @@
 
 
 body{
-
     display: flex;
     align-items: center;
     height: 100vh;
     justify-content: center;
     background-image: linear-gradient(rgb(0, 183, 255), rgb(194, 206, 254));
-
 }
 
-
 .container{
-    
     height: auto;
     width: 500px;
     background-color: #fff;
     border-radius: 7px;
     border: 1px solid #999;
-    
 }
 
 .title{
@@ -63,10 +58,6 @@ li{
 
 .check{
     color: green;
-    /* list-style-image:url("/greentick.png");
-    background-size: 20px;
-    size: 10px; */
-
 }
 
 img{
